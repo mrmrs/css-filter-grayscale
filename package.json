@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "filter-grayscale"
   ],
   "css-filter-grayscale": {
     "type": "git",
