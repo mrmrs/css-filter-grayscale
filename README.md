@@ -31,7 +31,7 @@ or download the css on github and include in your project.
 .gray-100 { filter: grayscale(100%); }
 
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .gray-10-ns  { filter: grayscale(10%); }
   .gray-20-ns  { filter: grayscale(20%); }
   .gray-30-ns  { filter: grayscale(30%); }
@@ -44,7 +44,7 @@ or download the css on github and include in your project.
   .gray-100-ns { filter: grayscale(100%); }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .gray-10-m  { filter: grayscale(10%); }
   .gray-20-m  { filter: grayscale(20%); }
   .gray-30-m  { filter: grayscale(30%); }
@@ -58,7 +58,7 @@ or download the css on github and include in your project.
 
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .gray-10-l  { filter: grayscale(10%); }
   .gray-20-l  { filter: grayscale(20%); }
   .gray-30-l  { filter: grayscale(30%); }
