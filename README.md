@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-filter-grayscale)
 ## File Size
 
 1.8K filter-grayscale.css
-1.4K filter-grayscale.min.css
+1.4K filter-grayscale.min.css 
+255B minified and gzipped
 
 ## The Code
 ```
