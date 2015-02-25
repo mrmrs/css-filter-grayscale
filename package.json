@@ -1,7 +1,7 @@
 {
   "name": "css-filter-grayscale",
   "style": "filter-grayscale.css",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "http://github.com/mrmrs/css-filter-grayscale",
   "description": "Css module of single purpose classes for filter grayscale",
   "keywords": [
