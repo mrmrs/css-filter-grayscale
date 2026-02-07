@@ -15,16 +15,16 @@
 
 
 @media screen and (min-width: 48em) {
-  .gray-10-ns  { filter: grayscale(10%); }
-  .gray-20-ns  { filter: grayscale(20%); }
-  .gray-30-ns  { filter: grayscale(30%); }
-  .gray-40-ns  { filter: grayscale(40%); }
-  .gray-50-ns  { filter: grayscale(50%); }
-  .gray-60-ns  { filter: grayscale(60%); }
-  .gray-70-ns  { filter: grayscale(70%); }
-  .gray-80-ns  { filter: grayscale(80%); }
-  .gray-90-ns  { filter: grayscale(90%); }
-  .gray-100-ns { filter: grayscale(100%); }
+  .gray-10-s  { filter: grayscale(10%); }
+  .gray-20-s  { filter: grayscale(20%); }
+  .gray-30-s  { filter: grayscale(30%); }
+  .gray-40-s  { filter: grayscale(40%); }
+  .gray-50-s  { filter: grayscale(50%); }
+  .gray-60-s  { filter: grayscale(60%); }
+  .gray-70-s  { filter: grayscale(70%); }
+  .gray-80-s  { filter: grayscale(80%); }
+  .gray-90-s  { filter: grayscale(90%); }
+  .gray-100-s { filter: grayscale(100%); }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
