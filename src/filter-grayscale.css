@@ -14,7 +14,7 @@
 .gray-100 { filter: grayscale(100%); }
 
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .gray-10-s  { filter: grayscale(10%); }
   .gray-20-s  { filter: grayscale(20%); }
   .gray-30-s  { filter: grayscale(30%); }
@@ -27,7 +27,7 @@
   .gray-100-s { filter: grayscale(100%); }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .gray-10-m  { filter: grayscale(10%); }
   .gray-20-m  { filter: grayscale(20%); }
   .gray-30-m  { filter: grayscale(30%); }
@@ -41,7 +41,7 @@
 
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .gray-10-l  { filter: grayscale(10%); }
   .gray-20-l  { filter: grayscale(20%); }
   .gray-30-l  { filter: grayscale(30%); }
