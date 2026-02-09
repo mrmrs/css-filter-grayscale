@@ -1,38 +1,44 @@
 {
   "name": "css-filter-grayscale",
-  "style": "filter-grayscale.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-filter-grayscale",
-  "description": "Css module of single purpose classes for filter grayscale",
+  "version": "2.0.0",
+  "description": "Functional CSS for filter-grayscale",
+  "style": "dist/filter-grayscale.css",
+  "main": "dist/filter-grayscale.css",
+  "exports": {
+    ".": "./dist/filter-grayscale.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "filter-grayscale"
+    "filter-grayscale",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-filter-grayscale": {
+  "homepage": "https://github.com/mrmrs/css-filter-grayscale",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-filter-grayscale.git"
+    "url": "https://github.com/mrmrs/css-filter-grayscale.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-filter-grayscale/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-filter-grayscale/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
