@@ -1,165 +1,165 @@
-.gray1 {
+.gray-10 {
   filter: grayscale(10%);
 }
 
-.gray2 {
+.gray-20 {
   filter: grayscale(20%);
 }
 
-.gray3 {
+.gray-30 {
   filter: grayscale(30%);
 }
 
-.gray4 {
+.gray-40 {
   filter: grayscale(40%);
 }
 
-.gray5 {
+.gray-50 {
   filter: grayscale(50%);
 }
 
-.gray6 {
+.gray-60 {
   filter: grayscale(60%);
 }
 
-.gray7 {
+.gray-70 {
   filter: grayscale(70%);
 }
 
-.gray8 {
+.gray-80 {
   filter: grayscale(80%);
 }
 
-.gray9 {
+.gray-90 {
   filter: grayscale(90%);
 }
 
-.gray10 {
+.gray-100 {
   filter: grayscale();
 }
 
 @media screen and (width >= 32em) {
-  .gray1-s {
+  .gray-10-s {
     filter: grayscale(10%);
   }
 
-  .gray2-s {
+  .gray-20-s {
     filter: grayscale(20%);
   }
 
-  .gray3-s {
+  .gray-30-s {
     filter: grayscale(30%);
   }
 
-  .gray4-s {
+  .gray-40-s {
     filter: grayscale(40%);
   }
 
-  .gray5-s {
+  .gray-50-s {
     filter: grayscale(50%);
   }
 
-  .gray6-s {
+  .gray-60-s {
     filter: grayscale(60%);
   }
 
-  .gray7-s {
+  .gray-70-s {
     filter: grayscale(70%);
   }
 
-  .gray8-s {
+  .gray-80-s {
     filter: grayscale(80%);
   }
 
-  .gray9-s {
+  .gray-90-s {
     filter: grayscale(90%);
   }
 
-  .gray10-s {
+  .gray-100-s {
     filter: grayscale();
   }
 }
 
 @media screen and (width >= 48em) {
-  .gray1-m {
+  .gray-10-m {
     filter: grayscale(10%);
   }
 
-  .gray2-m {
+  .gray-20-m {
     filter: grayscale(20%);
   }
 
-  .gray3-m {
+  .gray-30-m {
     filter: grayscale(30%);
   }
 
-  .gray4-m {
+  .gray-40-m {
     filter: grayscale(40%);
   }
 
-  .gray5-m {
+  .gray-50-m {
     filter: grayscale(50%);
   }
 
-  .gray6-m {
+  .gray-60-m {
     filter: grayscale(60%);
   }
 
-  .gray7-m {
+  .gray-70-m {
     filter: grayscale(70%);
   }
 
-  .gray8-m {
+  .gray-80-m {
     filter: grayscale(80%);
   }
 
-  .gray9-m {
+  .gray-90-m {
     filter: grayscale(90%);
   }
 
-  .gray10-m {
+  .gray-100-m {
     filter: grayscale();
   }
 }
 
 @media screen and (width >= 96em) {
-  .gray1-l {
+  .gray-10-l {
     filter: grayscale(10%);
   }
 
-  .gray2-l {
+  .gray-20-l {
     filter: grayscale(20%);
   }
 
-  .gray3-l {
+  .gray-30-l {
     filter: grayscale(30%);
   }
 
-  .gray4-l {
+  .gray-40-l {
     filter: grayscale(40%);
   }
 
-  .gray5-l {
+  .gray-50-l {
     filter: grayscale(50%);
   }
 
-  .gray6-l {
+  .gray-60-l {
     filter: grayscale(60%);
   }
 
-  .gray7-l {
+  .gray-70-l {
     filter: grayscale(70%);
   }
 
-  .gray8-l {
+  .gray-80-l {
     filter: grayscale(80%);
   }
 
-  .gray9-l {
+  .gray-90-l {
     filter: grayscale(90%);
   }
 
-  .gray10-l {
+  .gray-100-l {
     filter: grayscale();
   }
 }
